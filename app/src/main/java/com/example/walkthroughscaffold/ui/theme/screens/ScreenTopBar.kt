@@ -1,4 +1,4 @@
-package com.example.walkthroughscaffold.ui.theme.composables
+package com.example.walkthroughscaffold.ui.theme.screens
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack

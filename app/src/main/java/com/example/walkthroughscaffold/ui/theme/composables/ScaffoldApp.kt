@@ -4,6 +4,8 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.walkthroughscaffold.ui.theme.screens.InfoScreen
+import com.example.walkthroughscaffold.ui.theme.screens.SettingsScreen
 
 @Composable
 fun ScaffoldApp() {

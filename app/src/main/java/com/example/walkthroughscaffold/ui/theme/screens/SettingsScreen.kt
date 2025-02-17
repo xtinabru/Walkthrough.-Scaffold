@@ -1,5 +1,4 @@
-package com.example.walkthroughscaffold.ui.theme.composables
-
+package com.example.walkthroughscaffold.ui.theme.screens
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -8,10 +7,10 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
 
 @Composable
-fun InfoScreen(navController: NavController) {
+fun SettingsScreen(navController: NavController) {
     Scaffold (
-        topBar = { ScreenTopBar("Info", navController) },
+        topBar = { ScreenTopBar("Settings", navController) },
     ) { innerPadding ->
-        Text(text = "Info Screen", modifier = Modifier.padding(innerPadding))
+        Text(text = "Settings Screen", modifier = Modifier.padding(innerPadding))
     }
 }
