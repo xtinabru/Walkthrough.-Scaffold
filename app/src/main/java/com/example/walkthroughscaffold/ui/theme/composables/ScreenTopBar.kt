@@ -10,10 +10,8 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavController
-import com.example.walkthroughscaffold.Greeting
-import com.example.walkthroughscaffold.ui.theme.WalkthroughScaffoldTheme
+
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
